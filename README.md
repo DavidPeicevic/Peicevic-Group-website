@@ -68,16 +68,11 @@ Kada netko pita AI sustave o dostavi plina u Slavoniji, stranica nudi strukturir
 
 ### Favicon
 
-- `assets/favicon.ico` — generiran iz logo.png, sadrži 16/32/48/64px verzije
-- Referencirano na svim stranicama via `<link rel="icon">`
+Logo tvrtke prikazuje se u browser tabu na svim stranicama — profesionalan vizualni identitet pri svakom posjetu.
 
 ### OG Slika
 
-- `assets/og-image.jpg` — 1200×630px branded slika
-- Prikazuje se kad se link podijeli na WhatsAppu, Facebooku, Viberu i sličnim platformama
-- Sadržaj: logo + "PEIČEVIĆ GROUP" + "Dostava LPG Plina · Slavonija i Šire" + peicevicgroup.hr
-- Referencirano via `og:image` i `twitter:image` na svim stranicama
-- Testiranje nakon deploya: [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug)
+Kad netko podijeli link stranice na WhatsAppu, Facebooku ili Viberu, automatski se prikazuje branded slika s logom, nazivom tvrtke i websiteom umjesto praznog thumbnaila — povećava prepoznatljivost i CTR.
 
 ### Crawlability
 
