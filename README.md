@@ -19,6 +19,8 @@ Premium industrijski dizajn s neon-cyberpunk estetikom — električni cyan akce
 
 ## Performanse
 
+![Lighthouse Score](assets/lighthouse.png)
+
 Optimiziran za **95+ Lighthouse score** na svim stranicama:
 
 - Nulti CLS — font fallback metrics sprečavaju pomake layouta
