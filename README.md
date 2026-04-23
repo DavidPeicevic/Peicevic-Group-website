@@ -1,6 +1,6 @@
 # Peičević Group — Službena Web Stranica
 
-Profesionalna web stranica za **Peičević Group**, vodećeg distributera LPG plina u Slavoniji. Izgrađena s fokusom na premium dizajn, brzinu učitavanja i maksimalnu vidljivost na Google pretraživanju i AI sustavima.
+Profesionalna web stranica za **Peičević Group**, vodećeg distributera UNP i LPG plina u Slavoniji. Izgrađena s fokusom na premium dizajn, brzinu učitavanja i maksimalnu vidljivost na Google pretraživanju i AI sustavima.
 
 **Live:** [peicevicgroup.hr](https://peicevicgroup.hr)
 
