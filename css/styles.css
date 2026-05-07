@@ -270,9 +270,16 @@ h3 {
   align-items: center;
   gap: var(--space-sm);
   z-index: 1001;
-  flex-shrink: 1;
+  flex-shrink: 0;
   min-width: 0;
-  overflow: hidden;
+}
+
+/* Mobile: allow left side to shrink so hamburger stays in viewport */
+@media (max-width: 1023px) {
+  .nav__left {
+    flex-shrink: 1;
+    overflow: hidden;
+  }
 }
 
 .nav__logo {
@@ -295,6 +302,24 @@ h3 {
   overflow: hidden;
   text-overflow: ellipsis;
   min-width: 0;
+}
+
+/* Phone: shrink brand so full "PEICEVIC GROUP" fits next to hamburger */
+@media (max-width: 767px) {
+  .nav__inner {
+    gap: var(--space-xs);
+  }
+  .nav__left {
+    gap: var(--space-xs);
+  }
+  .nav__logo {
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+  }
+  .nav__logo-icon {
+    width: 28px;
+    height: 28px;
+  }
 }
 
 .nav__phone {
